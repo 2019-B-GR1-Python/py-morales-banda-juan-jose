@@ -5,34 +5,6 @@ Empezar una partida en el juego utilizando las credenciales respectivas y siguie
 Personaje: Ninja
 
 
-    CPCL1 
-
-    Nombre: José Lui Endara Puga 
-
-    Cédula de Ciudadanía: 1001976420 
-
-    Correo electrónico: endara-puga@gmail.com 
-
-    Número de teléfono convencional obligatorio: 062145545 
-
-    Número de teléfono convencional opcional: 062879857 
-
-    Número de teléfono celular: 0984068521 
-
-    Nombre de contacto: Ing. Esteba Flores 
-
-    Descripción del contacto: Gestor de Proyectos 
-
-    SLA: 4 Horas 
-
-    Tipo de pago: Acordado con cliente. 
-
-    Archivo de base de datos: SIGSTEC.dbo 
-
-    Los datos interactúan con el archivo de base de datos. 
-
-
-
 
 ----------HISTORIA DE USUARIO----------
 --- Comparación de Imágenes ---
