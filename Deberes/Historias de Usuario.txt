@@ -1,0 +1,32 @@
+---------- CASO DE PRUEBA ----------
+--- JUEGO 2D ---
+Empezar una partida en el juego utilizando las credenciales respectivas y siguiendo las reglas pre establecidas.
+
+Personaje: Ninja
+
+
+
+----------HISTORIA DE USUARIO----------
+--- Comparación de Imágenes ---
+Yo como usuario ( ROL ) deseo poder comparar una imagen seleccionada por mi, con el fin de encontrar a la coincidencia mas parecida dentro de un grupo de imágenes en la base de datos.
+
+CRITERIOS DE ACEPTACION
+
+- Formatos de laimagen deben ser: PNG JPG JPEG 
+- El tamaño de la imagen debe ser de hasta 2 MB
+- Se va a comparar las imágenes desde una fecha pre establecida hasta el día actual
+- Mostrar los resultados en páginas de 20 en 20
+- Ordenar por fecha mas reciente, mayor numero de coincidencias
+
+
+
+---------- GERKHIN ----------
+--- SNAKE ---
+Escenario: Como usuario registrado en el juego, deseo empezar una nueva partida en el modo clásico.
+
+Given Usuario autenticado con el uso del chat
+And la cuenta no ha sido baneada
+And el juego sí funciona
+When entra a la pantalla principal
+Then elige la opción "Nuevo Juego"
+Then el juego comienza
