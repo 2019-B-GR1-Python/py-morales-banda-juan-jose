@@ -1,0 +1,75 @@
+Yo como usuario deseo poder pausar el juego en cualquier momento
+
+CRITERIOS
+- Tecla  que permita poner pausa
+- La ejecución del juego se detiene
+- El juego se mantiene en el estado posterior a la pulsación de la tecla
+
+---------------------------------------------------------------------------
+Yo como usuario deseo poder configurar el volumen del juego en cualquier momento.
+
+CRITERIOS
+- Tecla que permita poner pausa
+- La ejecución del juego se detiene
+- El juego se mantiene en el estado posterior a la pulsación de la tecla
+- Opción de ajuste de volumen
+
+---------------------------------------------------------------------------
+Yo como usuario deseo activar o desactivar el sonido del juego en cualquier momento.
+
+CRITERIOS
+- Tecla que permita poner pausa
+- La ejecución del juego se detiene
+- El juego se mantiene en el estado posterior a la pulsación de la tecla
+- Opción de activar o desactivar el sonido
+
+---------------------------------------------------------------------------
+Yo como usuario deseo elegir un personaje.
+
+CRITERIOS
+- Menu principal
+- Opción de "Elegir personaje"
+- Menu de personajes
+- Elegir el personaje deseado
+- Opción para aceptar el personaje elegido
+
+---------------------------------------------------------------------------
+Yo como usuario deseo visualizar la puntuación que voy obteniendo durante el desarrollo del juego.
+
+CRITERIOS
+- Sumatoria de puntaje en función de lo que va jugando el usuario.
+- Presentación del puntaje en tiempo real
+- Área en donde presentar el puntaje
+
+---------------------------------------------------------------------------
+Yo como usuario deseo poder salir del juego en cualquier momento.
+
+CRITERIOS
+- Tecla que permita poner pausa
+- La ejecución del juego se detiene
+- El juego se mantiene en el estado posterior a la pulsación de la tecla
+- Opción que permita salir del juego
+- Datos de la partida en ejecución son eliminados
+
+---------------------------------------------------------------------------
+Yo como usuario deseo poder activar el poder de mi personaje.
+
+CRITERIOS
+- Aviso de que se puede utilizar el poder
+- Temporizador que muestre el tiempo en el que se podrá utilizar el poder
+- Tecla de activación del poder del respectivo personaje
+- Correcto uso del poder
+
+---------------------------------------------------------------------------
+Yo como usuario deseo que se pueda mejorar el efecto del poder durante el juego.
+
+CRITERIOS
+- Aviso de que se puede mejorar el poder
+- Correcta mejora del poder
+
+---------------------------------------------------------------------------
+Yo como usuario deseo mover mi personaje con el uso de teclas intuitivas.
+
+CRITERIOS
+- Teclas de movimiento del personaje
+- Correcta ejecución del movimiento
