@@ -41,3 +41,11 @@ df5 = pd.read_pickle(path_guardado)
 
 
 
+
+
+
+
+
+
+
+
