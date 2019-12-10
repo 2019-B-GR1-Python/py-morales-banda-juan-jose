@@ -52,10 +52,38 @@ dataframe = pd.DataFrame(ser3)
 ser1 = pd.Series([1, 2, 3, 4, 5])
 ser2 = pd.Series([4, 5, 6, 7, 8])
 
+resp = ser2.isin(ser1)
+for i in range(len(resp)):
+  resp[i] = not resp[i]
+
+ser2[resp]
+
+#15) ¿Como obtener los items que no son comunes en una serie A y serie B?
+ser1 = pd.Series([1, 2, 3, 4, 5])
+ser2 = pd.Series([4, 5, 6, 7, 8])
+
 resp = ser1.isin(ser2)
+resp2 = ser2.isin(ser1)
 
-z = ser1[!resp]
+for i in range(len(resp)):
+  resp[i] = not resp[i]
+
+for i in range(len(resp2)):
+  resp2[i] = not resp2[i]
+
+serie = ser1[resp]
+serie2 = ser2[resp2]
+serie3 =pd.concat([serie,serie2])
 
 
 
+#19) ¿Obtener los valores de una serie conociendo la posicion por indice?
+ser = pd.Series(list('abcdefghijklmnopqrstuvwxyz'))
+pos = [0, 4, 8, 14, 20]
+# a e i o u
+ser[pos]
 
+#18) ¿Como transformar una serie de un arreglo de numpy a un DataFrame con un shape definido?
+ser = pd.Series(np.random.randint(1, 10, 35))
+ser_dfa = pd.DataFrame(ser)
+ser_dfa.shape
