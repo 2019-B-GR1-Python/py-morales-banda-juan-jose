@@ -92,9 +92,17 @@ worksheet.insert_chart('C1', chart)
 
 workbook.close()
 
+########## SQL #########
+with sqlite3.connect('bdd_artist.db') as conexion:
+  df5.to_sql('py_artist', conexion)
 
-
-
-
-
+########## JSON ##########
+df5.to_json('artistas.json')
+df5.to_json('artistas_tabla.json', orient = 'table')
+  
+  
+  
+  
+  
+  
 
