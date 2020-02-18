@@ -678,6 +678,7 @@ class AraniaJuegos(scrapy.Spider):
         lista_tamanio = pd.Series(self.tamanio_juegos)
         lista_visitas = pd.Series(self.visitas_juegos)
 
+        '''
         path_guardado = 'C://Users//MORALES//Documents//GitHub//py-morales-banda-juan-jose//Deberes//Proyecto2//Gamesfull//Juegos.xlsx'
 
         df = pd.DataFrame({'TITULO': lista_titulos,
@@ -687,8 +688,4 @@ class AraniaJuegos(scrapy.Spider):
                            'Visitas': lista_visitas})
         
         df.to_excel(path_guardado, sheet_name = 'Primera', index=False) #Guardar sin los indices que estaban
-        '''
-        for juego in visitas:          
-            with open('../mangasTitulos.txt', 'a+', encoding='utf-8') as archivo:  # se evita el try catch
-                archivo.write(manga + '\n')
         '''
