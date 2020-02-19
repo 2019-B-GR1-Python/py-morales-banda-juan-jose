@@ -9,6 +9,7 @@ import sqlite3
 import xlsxwriter
 import matplotlib.pyplot as plt
 import seaborn as sns
+from datetime import datetime
 
 # Arania para obtener los enlaces de todos los mangas
 
@@ -627,6 +628,7 @@ class AraniaJuegos(scrapy.Spider):
     visitas_juegos = []
     votos_juegos = []
     rating_juegos = []
+    anios_juegos = []
 
     def start_requests(self):
         for url in self.urls:
@@ -662,8 +664,12 @@ class AraniaJuegos(scrapy.Spider):
         visitas = visitas.replace('.','')
         self.visitas_juegos.append(visitas)
 
+        fechaCompleta = datetime.strptime(fechas, '%d/%m/%y')
+        self.anios_juegos.append(fechaCompleta.year)
+
         lista_titulos = pd.Series(self.titulo_juegos)
         lista_fechas = pd.Series(self.fechas_juegos)
+        lista_anios = pd.Series(self.anios_juegos)
         lista_uploader = pd.Series(self.uploader_juegos)
         lista_tamanio = pd.Series(self.tamanio_juegos)
         lista_visitas = pd.Series(self.visitas_juegos)
@@ -676,6 +682,7 @@ class AraniaJuegos(scrapy.Spider):
                            'Votos': lista_votos,
                            'Rating': lista_ratings,
                            'Fechas': lista_fechas,
+                           'Anios': lista_anios,
                            'Uploader': lista_uploader,
                            'Tamanio': lista_tamanio,
                            'Visitas': lista_visitas})
