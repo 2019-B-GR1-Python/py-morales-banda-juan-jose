@@ -165,7 +165,6 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-ruse-deluxe-edition-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-dmc-devil-may-cry-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-sonic-mania-espanol-mega-torrent-iso-elamigos/',
-        'https://www.gamesfull.org/descargar-diablo-ii-complete-edition-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-diablo-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/devil-may-cry-hd-collection-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-devil-may-cry-5-deluxe-edition-torrent-elamigos/',
@@ -204,14 +203,12 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-dream-alone-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-darksiders-ii-deathinitive-edition-espanol-mega-torrent-setup-gog/',
         'https://www.gamesfull.org/descargar-darksiders-warmastered-edition-espanol-mega-torrent-setup-gog/',
-        'https://www.gamesfull.org/descargar-deadfall-adventures-deluxe-edition-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargarcrying-is-not-enough-espanol-mega-torrent-iso-codex/',
         'https://www.gamesfull.org/descargar-halo-wars-2-complete-edition-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-anima-gate-of-memories-the-nameless-chronicles-espanol-mega-torrent-iso-codex/',
         'https://www.gamesfull.org/descargar-zombie-army-trilogy-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-super-bomberman-r-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-moonlighter-espanol-mega-torrent-iso-elamigos/',
-        'https://www.gamesfull.org/descargar-lara-croft-and-the-temple-of-osiris-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-lara-croft-and-the-guardian-of-light-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-the-karters-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-spider-man-web-of-shadows-espanol-mega-torrent-iso-elamigos/',
@@ -275,11 +272,9 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-watch-dogs-2-deluxe-edition-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-hunt-down-the-freeman-english-mega-torrent-iso-codex/',
         'https://www.gamesfull.org/descargar-past-cure-espanol-mega-torrent-iso-codex/',
-        'https://www.gamesfull.org/descargar-little-witch-academia-chamber-of-time-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-hitman-the-complete-first-season-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-marvel-vs-capcom-infinite-deluxe-edition-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-the-swords-of-ditto-espanol-mega-torrent-iso-elamigos/',
-        'https://www.gamesfull.org/descargar-aragami-espanol-mega-torrent-iso-codex/',
         'https://www.gamesfull.org/descargar-payday-2-ultimate-edition-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/city-of-brass/',
         'https://www.gamesfull.org/descargar-one-piece-pirate-warriors-3-gold-edition-espanol-mega-torrent-iso-elamigos/',
@@ -411,7 +406,6 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-dark-souls-prepare-to-die-edition-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-remember-me-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-republique-remastered-complete-season-espanol-torrent-elamigos/',
-        'https://www.gamesfull.org/descargar-vikings-wolves-of-midgard-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-hand-of-fate-2-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-dishonored-2-espanol-mega-torrent-iso-elamigos/',
         'https://www.gamesfull.org/descargar-dishonored-death-of-the-outsider-espanol-mega-torrent-iso-elamigos/',
@@ -546,7 +540,6 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-jump-force-ultimate-edition-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-daemon-x-machina-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-street-fighter-v-arcade-edition-espanol-mega-torrent-iso-elamigos/',
-        'https://www.gamesfull.org/descargar-wolcen-lords-of-mayhem-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-dead-or-alive-6-deluxe-edition-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-pine-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-dragon-ball-z-kakarot-ultimate-edition-espanol-elamigos/',
@@ -615,15 +608,10 @@ class AraniaJuegos(scrapy.Spider):
         'https://www.gamesfull.org/descargar-lego-marvels-avengers-torrent-elamigos/',
         'https://www.gamesfull.org/tekken-7-deluxe-edition/',
         'https://www.gamesfull.org/descargar-killing-floor-2-digital-deluxe-edition-espanol-mega-torrent-portable-3dm/',
-        'https://www.gamesfull.org/descargar-generation-zero-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-xenon-racer-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-the-walking-dead-the-final-season-espanol-torrent-elamigos/',
         'https://www.gamesfull.org/descargar-lego-jurassic-world-torrent-elamigos/',
-        'https://www.gamesfull.org/descargar-enderal-forgotten-stories-espanol-torrent-elamigos/',
-        'https://www.gamesfull.org/descargar-terminator-salvation-torrent-elamigos/',
-        'https://www.gamesfull.org/descargar-alan-wake-complete-collection-torrent-elamigos/',
-        'https://www.gamesfull.org/descargar-monster-hunter-world-deluxe-edition-espanol-torrent-elamigos/'
-
+        'https://www.gamesfull.org/descargar-enderal-forgotten-stories-espanol-torrent-elamigos/'
     ]
 
     urls_prueba = [
@@ -637,39 +625,41 @@ class AraniaJuegos(scrapy.Spider):
     uploader_juegos = []
     tamanio_juegos = []
     visitas_juegos = []
+    votos_juegos = []
+    rating_juegos = []
 
     def start_requests(self):
         for url in self.urls:
             yield scrapy.Request(url=url)
 
     def parse(self, response):
-        titulos = response.css('header.Top > h1.Title::text').extract()
+        titulos = response.css('header.Top > h1.Title::text').get()
         self.titulo_juegos.append(titulos)
 
         fechas = response.css(
-            'header.Top > div.Info > span.Date::text').extract()
+            'header.Top > div.Info > span.Date::text').get()
         self.fechas_juegos.append(fechas)
 
         uploader = response.css(
-            'header.Top > div.Info > span.Qlty::text').extract()
+            'header.Top > div.Info > span.Qlty::text').get()
         self.uploader_juegos.append(uploader)
 
         tamanio = response.css(
-            'header.Top > div.Info > span.Time::text').extract()
+            'header.Top > div.Info > span.Time::text').get()
         self.tamanio_juegos.append(tamanio)
 
         visitas = response.css(
-            'header.Top > div.Info > span.Views::text').extract()
+            'header.Top > div.Info > span.Views::text').get()
 
-        quitarVisitas = ' visitas'
-        ponerVacio = ''
-        
-        def modificarString(path, reemplazo, array):
-            for posicion in range(len(array)):
-                array[posicion] = array[posicion].replace(reemplazo, path)
-                # print(array[posicion])
+        calificaciones = response.css(
+            'div.post-ratings > strong::text').extract()
+        calificaciones[1] = calificaciones[1].replace(',','.')
 
-        modificarString(ponerVacio, quitarVisitas, visitas)
+        self.votos_juegos.append(calificaciones[0])
+        self.rating_juegos.append(calificaciones[1])
+
+        visitas = visitas.replace(' visitas', '')
+        visitas = visitas.replace('.','')
         self.visitas_juegos.append(visitas)
 
         lista_titulos = pd.Series(self.titulo_juegos)
@@ -677,15 +667,17 @@ class AraniaJuegos(scrapy.Spider):
         lista_uploader = pd.Series(self.uploader_juegos)
         lista_tamanio = pd.Series(self.tamanio_juegos)
         lista_visitas = pd.Series(self.visitas_juegos)
-
-        '''
+        lista_votos = pd.Series(self.votos_juegos)
+        lista_ratings = pd.Series(self.rating_juegos)
+        
         path_guardado = 'C://Users//MORALES//Documents//GitHub//py-morales-banda-juan-jose//Deberes//Proyecto2//Gamesfull//Juegos.xlsx'
 
-        df = pd.DataFrame({'TITULO': lista_titulos,
+        df = pd.DataFrame({'Titulo': lista_titulos,
+                           'Votos': lista_votos,
+                           'Rating': lista_ratings,
                            'Fechas': lista_fechas,
                            'Uploader': lista_uploader,
                            'Tamanio': lista_tamanio,
                            'Visitas': lista_visitas})
-        
-        df.to_excel(path_guardado, sheet_name = 'Primera', index=False) #Guardar sin los indices que estaban
-        '''
+
+        df.to_excel(path_guardado, sheet_name='Gamesfull', index=False)
